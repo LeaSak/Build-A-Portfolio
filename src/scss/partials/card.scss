@@ -1,0 +1,55 @@
+/* Card */
+
+.card {
+    box-shadow: 0px 2px 2px 0px $leadgrey;
+    background-color: $body-bg;
+    border-radius: $border-radius-small;
+    margin: 0 0 30px 0;
+}
+
+.image-box {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.content {
+    padding: 15px;
+}
+
+.overlay {
+    @media (min-width: $screen-sm-min) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $stormblue;
+        opacity: 0.4;
+        transition: .5s;
+        cursor: pointer;
+        &:hover {
+            opacity: 0;
+        }
+    }
+}
+
+.card-stack {
+    @media (min-width: $screen-sm-min) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .col-sm-6 {
+        @media (min-width: $screen-sm-min) {
+            display: flex;
+            width: 50%;
+        }
+    }
+}

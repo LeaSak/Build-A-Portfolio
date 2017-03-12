@@ -1,0 +1,39 @@
+/* Typography */
+
+//Modular scale 1.067
+h1 {
+    font-size: $font-size-h1-sm;
+    @media (min-width: 800px) {
+        font-size: $font-size-h1-md;
+    }
+}
+
+h2 {
+    font-size: $font-size-h2-sm;
+    margin-bottom: 22px;
+    @media (min-width: 800px) {
+        font-size: $font-size-h2-md;
+    }
+}
+
+h3 {
+    font-size: $font-size-h3-sm;
+    @media (min-width: 800px) {
+        font-size: $font-size-h3-md;
+    }
+}
+
+.plus {
+    color: $acrylicblue;
+}
+
+.about-text {
+    @media (min-width: 800px) {
+        font-size: $font-size-large;
+    }
+}
+
+.language {
+    color: $gray-light;
+    margin: 0;
+}

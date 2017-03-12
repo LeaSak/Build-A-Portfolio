@@ -1,0 +1,38 @@
+/* Navigation */
+
+nav {
+    min-height: 50px;
+    border-bottom: 1px solid $border-color;
+    background-color: $body-bg;
+}
+
+.logo-link,
+.nav-link {
+    padding: $nav-link-padding-sm;
+    @media (min-width: $screen-sm-min) {
+        padding: $nav-link-padding-md;
+    }
+}
+
+.logo-img {
+    height: 50px;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-item {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nav-link {
+    min-height: 48px;
+    min-width: 48px;
+}

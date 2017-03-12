@@ -1,0 +1,59 @@
+/* Custom variables */
+//Original bootstrap variables are commented out.
+
+//colors
+$electricblue: #651fff;
+$acrylicblue: #00b0ff;
+$stormblue: #263238;
+$leadgrey: rgba(0, 0, 0, 0.15);
+
+//Disable large-desktop breakpoint
+//$screen-md:                  992px !default;
+$screen-md: 992px !default;
+//$screen-lg-min:              $screen-lg !default;
+$screen-lg-min: $screen-md;
+//Container Grid
+$grid-gutter-width: 30px;
+//Set large screen container to same as md-container
+//$container-desktop:            (940px + $grid-gutter-width) !default;
+$container-desktop: (940px + $grid-gutter-width) !default;
+// $container-large-desktop:      (1140px + $grid-gutter-width) !default;
+$container-large-desktop: $container-desktop;
+
+//Typography
+//$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif: "Karla", Helvetica, Arial, sans-serif;
+//$headings-font-family:    inherit !default;
+$headings-font-family: $font-family-sans-serif;
+//$font-size-base:14px !default;
+$font-size-base: 16px;
+//$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-large: 18px;
+//$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h1-sm: calc(12px + 4vw);
+$font-size-h1-md: 2.488em;
+//$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h2-sm: 1.215em;
+$font-size-h2-md: 1.383em;
+//$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h3-sm: 1.067em;
+$font-size-h3-md: 1.139em;
+//$text-color:            $gray-dark !default;
+$text-color: $stormblue;
+//$link-color:            $brand-primary !default;
+$link-color: $stormblue;
+//$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color: $acrylicblue;
+//** Link hover decoration.
+$link-hover-decoration: none;
+
+//Borders
+//$border-radius-small:       3px !default;
+$border-radius-small: 2px;
+//border-color
+$border-color: $leadgrey;
+
+//Navigation
+//Nav-link-padding
+$nav-link-padding-sm: 1em 1em 1em 0;
+$nav-link-padding-md: 1em 2.5em 1em 0
